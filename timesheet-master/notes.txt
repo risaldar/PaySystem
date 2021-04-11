@@ -1,0 +1,6 @@
+Things left todo:
+
+-Change DB Structure to allow for multiple groups per employee.
+
+Things to fix:
+GO to github to see what there is to fix.

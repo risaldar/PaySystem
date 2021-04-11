@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>timeSheet</short-name>
+    <tag>
+        <name>error</name>
+        <tag-class>timeSheet.tags.ErrorTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>error</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>footer</name>
+        <tag-class>timeSheet.tags.FooterTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>header</name>
+        <tag-class>timeSheet.tags.HeaderTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>sub</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>menu</name>
+        <tag-class>timeSheet.tags.MenuTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>dashMenu</name>
+        <tag-class>timeSheet.tags.DashMenuTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>adp</name>
+        <tag-class>timeSheet.tags.ADPTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>adpReport</name>
+        <tag-class>timeSheet.tags.ADPReportTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>headDefault</name>
+        <tag-class>timeSheet.tags.CommonHeadTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>displayCalendar</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+    </tag>
+</taglib>
