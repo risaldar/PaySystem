@@ -1,0 +1,172 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: #8b008b;
+}
+
+div.login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.error {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color:red;
+}
+
+div.time {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+div.menu {
+    text-align: right;
+}
+
+label {
+    font-weight: bold;
+    float: left;
+    text-align: left;
+}
+
+input {
+    float: right;
+}
+
+input.calendarField {
+    float: right;
+    width: 140px;
+}
+
+div.login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+label {
+    font-weight: bold;
+    float: left;
+    text-align: left;
+}
+
+label.opposite {
+    float: right;
+}
+
+label.none {
+    float: none;
+}
+
+input.field {
+    float: right;
+}
+
+input.calendarField {
+    float: right;
+    width: 140px;
+}
+
+input.submit {
+    float: none;
+}
+
+select.field {
+    float: right;
+    width: 158px;
+}
+
+br {
+    clear: both;
+}
+
+textarea.field {
+    float: right;
+}
+
+table.install {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 0;
+    border: 0;
+}
+
+table.report {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    border: 0;
+}
+
+td.install {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 25px;
+}
+
+td.clear {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    height: 25px;
+}
+
+td.value {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    height: 25px;
+}
+
+td.action {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: 25px;
+}
+
+th.report {
+    border: 0;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1px;
+    border: 5px solid;
+}
+
+td {
+    border: 0;
+    width: 100px;
+    height: 50px;
+}
+
+td.hourTable {
+    border: 0;
+    width: 100px;
+    height: 25px;
+    vertical-align: text-top;
+}
+
+td.total {
+    background-color: #999999;
+}
