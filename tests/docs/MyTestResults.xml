@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyTest" project="assignment" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="assignment.MyTest" time="0.048" displayname="MyTest" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]">
+    <testcase name="test_read_1" classname="assignment.MyTest" time="0.035" displayname="test_read_1()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_1()]"/>
+    <testcase name="test_read_2" classname="assignment.MyTest" time="0.001" displayname="test_read_2()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_2()]"/>
+    <testcase name="test_read_3" classname="assignment.MyTest" time="0.001" displayname="test_read_3()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_3()]"/>
+    <testcase name="test_read_4" classname="assignment.MyTest" time="0.001" displayname="test_read_4()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_4()]"/>
+    <testcase name="test_read_5" classname="assignment.MyTest" time="0.003" displayname="test_read_5()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_5()]"/>
+    <testcase name="test_read_6" classname="assignment.MyTest" time="0.0" displayname="test_read_6()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_6()]"/>
+    <testcase name="test_read_7" classname="assignment.MyTest" time="0.0" displayname="test_read_7()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_7()]"/>
+    <testcase name="test_read_8" classname="assignment.MyTest" time="0.001" displayname="test_read_8()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_8()]"/>
+    <testcase name="test_read_9" classname="assignment.MyTest" time="0.001" displayname="test_read_9()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_9()]"/>
+    <testcase name="test_read_10" classname="assignment.MyTest" time="0.001" displayname="test_read_10()" uniqueid="[engine:junit-jupiter]/[class:assignment.MyTest]/[method:test_read_10()]"/>
+  </testsuite>
+</testrun>
