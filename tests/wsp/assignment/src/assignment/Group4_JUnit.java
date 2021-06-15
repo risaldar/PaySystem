@@ -851,41 +851,92 @@ class Group4_JUnit {
 		int actual = M.binaryGcd(a,b);		
 		assertEquals(actual, expected);
 	}
-
+	
 	@Test
-	void MathContextTest() {
+	void MathContextTest1() {
 		byte[] ba1 = new byte[18];
 		MathUtils mu = new MathUtils(ba1);
 		assertThrows(NullPointerException.class, () -> mu.MathContext(null), "No value is being passed inside method");
-		assertThrows(RuntimeException.class, () -> mu.MathContext("Second test function"), "Exception Raises");
-		assertThrows(IllegalArgumentException.class, () -> mu.MathContext("Precision=Second test function"), "Exception Raises");
 	}
-		
+
 	@Test
-	void passesMillerRabinTest() {
-		Random rnd = new Random();
+	void MathContextTest2() {
 		byte[] ba1 = new byte[18];
 		MathUtils mu = new MathUtils(ba1);
+		assertThrows(RuntimeException.class, () -> mu.MathContext("Second test function"), "Exception Raises");
+	}
+	
+	@Test
+	void MathContextTest3() {
+		byte[] ba1 = new byte[18];
+		MathUtils mu = new MathUtils(ba1);
+		assertThrows(IllegalArgumentException.class, () -> mu.MathContext("Precision=Second test function"), "Exception Raises");
+	}
+	
+	@Test
+	void passesMillerRabinTest1() {
+		byte[] ba1 = new byte[18];
+		MathUtils mu = new MathUtils(ba1);
+		Random rnd = new Random(12);
 		assertTimeoutPreemptively(Duration.ofMillis(100), () -> {
-			mu.passesMillerRabin(300, null);
+			assertTrue(mu.passesMillerRabin(0, rnd), "Should be true");
 		});
+	}
+
+	@Test
+	void passesMillerRabinTest2() {
+		byte[] ba1 = new byte[18];
+		MathUtils mu = new MathUtils(ba1);
+		Random rnd = new Random();
 		assertTimeoutPreemptively(Duration.ofMillis(100), () -> {
-			assertTrue(mu.passesMillerRabin(300, rnd), "Should be true");
+			assertTrue(mu.passesMillerRabin(-1, rnd), "Should be true");
 		});
+	}
+	
+	@Test
+	void passesMillerRabinTest3() {
+		byte[] ba1 = new byte[18];
+		MathUtils mu = new MathUtils(ba1);
+		Random rnd = new Random();
 		assertTrue(mu.passesMillerRabin(0, rnd), "Should be true");
+	}
+
+	@Test
+	void passesMillerRabinTest4() {
+		byte[] ba1 = new byte[18];
+		MathUtils mu = new MathUtils(ba1);
+		Random rnd = new Random();
 		assertTrue(mu.passesMillerRabin(0, null), "Should be true");
 	}
 	
 	@Test
-	void subtractTest() {
+	void subtractTest1() {
+		byte[] ba1 = new byte[18];
+		MathUtils mu = new MathUtils(ba1);
+		int[] intArray = {10,20};
+		int[] blankArray = {};
+		int[] resultArray = {10,20};
+		assertNotEquals(mu.subtract(10, intArray), resultArray);
+	}
+	
+	@Test
+	void subtractTest2() {
+		byte[] ba1 = new byte[18];
+		MathUtils mu = new MathUtils(ba1);
+		int[] intArray = {10,20};
+		int[] blankArray = {};
+		int[] resultArray = {10,20};
+		assertNotEquals(mu.subtract(0, intArray), resultArray);
+	}
+	
+	@Test
+	void subtractTest3() {
 		byte[] ba1 = new byte[18];
 		MathUtils mu = new MathUtils(ba1);
 		int[] intArray = {10,20,30};
 		int[] blankArray = {};
 		int[] resultArray = {10,20};
-		assertArrayEquals(mu.subtract(10, intArray), resultArray);
-		assertArrayEquals(mu.subtract(0, intArray), resultArray);
-		assertArrayEquals(mu.subtract(12, blankArray), resultArray);
+		assertThrows(ArrayIndexOutOfBoundsException.class, () -> mu.subtract(12, blankArray), "Exception Raises");
 	}
 		
 }
