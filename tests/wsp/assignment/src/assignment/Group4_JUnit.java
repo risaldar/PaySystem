@@ -399,8 +399,8 @@ class Group4_JUnit {
 	 * Test Type: Statement Coverage
 	 ******************************************************************/
 	@Test
-	void test_read_1() {
-		System.out.println("test_read_1");
+	void test_1() {
+		System.out.println("test_1");
 		
 		byte[] actual_A = new byte[10];
 		byte[] expected_A = new byte[10];
@@ -433,8 +433,8 @@ class Group4_JUnit {
 	 * Test Type: Branch Coverage
 	 ******************************************************************/
 	@Test
-	void test_read_2() {
-		System.out.println("test_read_2");
+	void test_2() {
+		System.out.println("test_2");
 		
 		byte[] actual_A = new byte[10];
 		byte[] expected_A = new byte[10];
@@ -462,8 +462,8 @@ class Group4_JUnit {
 	 * Test Type: Loop Boundary (Covers loop once)
 	 ******************************************************************/
 	@Test
-	void test_read_3() {
-		System.out.println("test_read_3");
+	void test_3() {
+		System.out.println("test_3");
 		
 		byte[] actual_A = new byte[10];
 		byte[] expected_A = new byte[10];
@@ -495,8 +495,8 @@ class Group4_JUnit {
 	 * Test Type: Basis Path (stub read shall return -1 to trigger error in our read call)
 	 ******************************************************************/
 	@Test
-	void test_read_4() {
-		System.out.println("test_read_4");
+	void test_4() {
+		System.out.println("test_4");
 		
 		byte[] actual_A = new byte[10];
 		byte[] expected_A = new byte[10];
@@ -524,8 +524,8 @@ class Group4_JUnit {
 	 * Test Type: Statement Coverage (covers all statements)
 	 ******************************************************************/
 	@Test
-	void test_read_5() {
-		System.out.println("test_read_5");
+	void test_5() {
+		System.out.println("test_5");
 		
 		byte[] in = new byte[]{'A', 'B', 'C'};
 		byte[] expected_out = new byte[]{'Q', 'U', 'J', 'D'};
@@ -548,8 +548,8 @@ class Group4_JUnit {
 	 * Test Type: Branch Coverage (covers cases to generate padding i.e. = character in output)
 	 ******************************************************************/
 	@Test
-	void test_read_6() {
-		System.out.println("test_read_6");
+	void test_6() {
+		System.out.println("test_6");
 		
 		byte[] in = new byte[]{'A', 'B', 'C'};
 		byte[] expected_out = new byte[]{'Q', 'Q', '=', '='};
@@ -572,8 +572,8 @@ class Group4_JUnit {
 	 * Test Type: Basis Path (skips loop completely)
 	 ******************************************************************/
 	@Test
-	void test_read_7() {
-		System.out.println("test_read_7");
+	void test_7() {
+		System.out.println("test_7");
 		
 		byte[] in = new byte[]{'A', 'B', 'C'};
 		
@@ -590,8 +590,8 @@ class Group4_JUnit {
 	 * Test Type: Data flow (covers define use pairs for variables iLen, oLen and Op)
 	 ******************************************************************/
 	@Test
-	void test_read_8() {
-		System.out.println("test_read_8");
+	void test_8() {
+		System.out.println("test_8");
 		
 		byte[] in = new byte[]{'A', 'B', 'C', 'D', 'E', 'F'};
 		byte[] expected_out = new byte[]{'Q', 'U', 'J', 'D', 'R', 'E', 'V', 'G'};
@@ -614,8 +614,8 @@ class Group4_JUnit {
 	 * Test Type: Boundary Interior (covers all possible paths within loop)
 	 ******************************************************************/
 	@Test
-	void test_read_9() {
-		System.out.println("test_read_9");
+	void test_9() {
+		System.out.println("test_9");
 		
 		{
 			System.out.println("covers path A");
@@ -678,8 +678,8 @@ class Group4_JUnit {
 	 * Test Type: Loop Boundary (Consider N=12 for loop. (Note that for valid input N-1 must be 8 and N+1 must be 16))
 	 ******************************************************************/
 	@Test
-	void test_read_10() {
-		System.out.println("test_read_10");
+	void test_10() {
+		System.out.println("test_10");
 		
 		{
 			System.out.println("covers loop 0 times");
