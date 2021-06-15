@@ -818,7 +818,7 @@ class Group4_JUnit {
 	/******************************************************************
 	 * FUNCTION 6:
 	 * https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/math/MutableBigInteger.java
-	 * Test Type: Branch Coverage, Statement Coverage
+	 * Test Type: Branch Coverage, Statement Coverage, Boundary Interior, , Data-Flow Testing (a,b,aZeros)
 	 ******************************************************************/
 	@ParameterizedTest
 	@CsvSource(value = { "15,0,15","0,15,15","98,56,14","56,98,14" })
@@ -836,7 +836,7 @@ class Group4_JUnit {
 	/******************************************************************
 	 * FUNCTION 6:
 	 * https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/math/MutableBigInteger.java
-	 * Test Type: Loop Boundary, Basis Path, Data-Flow Testing (a,b,aZeros)
+	 * Test Type: Loop Boundary, Basis Path
 	 ******************************************************************/
 	@ParameterizedTest
 	@CsvSource(value = { "12,12,12", "4,2,2", "6,2,2", "10,2,2", "12,2,2", "14,2,2" })
@@ -844,7 +844,8 @@ class Group4_JUnit {
 	// Loop is skipped entirely, Loop is run only once, Loop is run twice,
 	// Choose loop upper bound N = 5
 	// Loop is run 4 times, Loop is run 5 times, Loop is run 6 times, 
-	// 
+	// Covers All Basis Path
+	
 	void testbinaryGCD_2 (int a, int b, int expected){
 		MutableBigInteger M = new MutableBigInteger();
 		
