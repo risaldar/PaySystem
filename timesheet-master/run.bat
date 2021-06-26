@@ -2,10 +2,10 @@
 
 @rem download, install and run mysql server from here https://dev.mysql.com/downloads/
 
-set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_281
+set JAVA_HOME=.\..\jdk1.8.0_291
 set PATH=%JAVA_HOME%\bin;%PATH%
 
-set CATALINA_HOME="C:\Drive_ITU\assignments\TEST\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108"
+set CATALINA_HOME=".\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108"
 set PATH=%PATH%;%CATALINA_HOME%
 
 if exist %CATALINA_HOME%\webapps\PaySystem\ (

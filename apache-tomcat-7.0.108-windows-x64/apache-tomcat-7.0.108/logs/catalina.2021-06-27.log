@@ -1,0 +1,377 @@
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.Catalina initDirs
+SEVERE: Cannot find specified temporary folder at [.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\temp]
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.108
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 28 2021 09:12:57 UTC
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.108.0
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Drive_ITU\TEST\Repo\PaySystem\jdk1.8.0_291\jre
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_291-b10
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\conf\logging.properties
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\temp
+Jun 27, 2021 12:36:14 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Drive_ITU\TEST\Repo\PaySystem\jdk1.8.0_291\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;.\..\jdk1.8.0_291\bin;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files (x86)\BullseyeCoverage\bin;C:\Klocwork\Klocwork 12.2 Command Line\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\HighTec\v4.9.3.0\toolchains\tricore\v4.9.3.0-infineon-1.0\bin;C:\Users\dhasan\AppData\Local\Microsoft\WindowsApps;".\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108";.]
+Jun 27, 2021 12:36:14 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8090"]
+Jun 27, 2021 12:36:14 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 705 ms
+Jun 27, 2021 12:36:14 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 27, 2021 12:36:14 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.108
+Jun 27, 2021 12:36:15 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\PaySystem.war]
+Jun 27, 2021 12:36:16 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 27, 2021 12:36:16 AM timeSheet.EnvironmentSetup contextInitialized
+INFO: Starting the H2 server!
+Jun 27, 2021 12:36:16 AM timeSheet.EnvironmentSetup contextInitialized
+INFO: H2 server started.
+Jun 27, 2021 12:36:16 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [214] milliseconds.
+Jun 27, 2021 12:36:16 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\PaySystem.war] has finished in [1,674] ms
+Jun 27, 2021 12:36:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\docs]
+Jun 27, 2021 12:36:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\docs] has finished in [49] ms
+Jun 27, 2021 12:36:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\examples]
+Jun 27, 2021 12:36:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\examples] has finished in [408] ms
+Jun 27, 2021 12:36:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\host-manager]
+Jun 27, 2021 12:36:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\host-manager] has finished in [58] ms
+Jun 27, 2021 12:36:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\manager]
+Jun 27, 2021 12:36:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\manager] has finished in [43] ms
+Jun 27, 2021 12:36:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\ROOT]
+Jun 27, 2021 12:36:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\ROOT] has finished in [33] ms
+Jun 27, 2021 12:36:17 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8090"]
+Jun 27, 2021 12:36:17 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2399 ms
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.Catalina initDirs
+SEVERE: Cannot find specified temporary folder at [.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\temp]
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.108
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 28 2021 09:12:57 UTC
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.108.0
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Drive_ITU\TEST\Repo\PaySystem\jdk1.8.0_291\jre
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_291-b10
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\conf\logging.properties
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\temp
+Jun 27, 2021 12:40:15 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Drive_ITU\TEST\Repo\PaySystem\jdk1.8.0_291\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;.\..\jdk1.8.0_291\bin;.\..\jdk1.8.0_291\bin;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files (x86)\BullseyeCoverage\bin;C:\Klocwork\Klocwork 12.2 Command Line\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\HighTec\v4.9.3.0\toolchains\tricore\v4.9.3.0-infineon-1.0\bin;C:\Users\dhasan\AppData\Local\Microsoft\WindowsApps;".\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108";".\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108";.]
+Jun 27, 2021 12:40:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8090"]
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 617 ms
+Jun 27, 2021 12:40:15 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 27, 2021 12:40:15 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.108
+Jun 27, 2021 12:40:15 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\PaySystem.war]
+Jun 27, 2021 12:40:16 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 27, 2021 12:40:17 AM timeSheet.EnvironmentSetup contextInitialized
+INFO: Starting the H2 server!
+Jun 27, 2021 12:40:17 AM timeSheet.EnvironmentSetup contextInitialized
+INFO: H2 server started.
+Jun 27, 2021 12:40:17 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [216] milliseconds.
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\PaySystem.war] has finished in [1,581] ms
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\docs]
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\docs] has finished in [74] ms
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\examples]
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\examples] has finished in [277] ms
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\host-manager]
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\host-manager] has finished in [45] ms
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\manager]
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\manager] has finished in [39] ms
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\ROOT]
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\ROOT] has finished in [34] ms
+Jun 27, 2021 12:40:17 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8090"]
+Jun 27, 2021 12:40:17 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2161 ms
+Jun 27, 2021 12:46:58 AM org.apache.catalina.startup.Catalina initDirs
+SEVERE: Cannot find specified temporary folder at [.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\temp]
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.108
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 28 2021 09:12:57 UTC
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.108.0
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Drive_ITU\TEST\Repo\PaySystem\jdk1.8.0_291\jre
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_291-b10
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\conf\logging.properties
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\temp
+Jun 27, 2021 12:46:59 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Drive_ITU\TEST\Repo\PaySystem\jdk1.8.0_291\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;.\..\jdk1.8.0_291\bin;.\..\jdk1.8.0_291\bin;.\..\jdk1.8.0_291\bin;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files (x86)\BullseyeCoverage\bin;C:\Klocwork\Klocwork 12.2 Command Line\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\HighTec\v4.9.3.0\toolchains\tricore\v4.9.3.0-infineon-1.0\bin;C:\Users\dhasan\AppData\Local\Microsoft\WindowsApps;".\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108";".\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108";".\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108";.]
+Jun 27, 2021 12:46:59 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8090"]
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 688 ms
+Jun 27, 2021 12:46:59 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 27, 2021 12:46:59 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.108
+Jun 27, 2021 12:46:59 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\PaySystem.war]
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 27, 2021 12:47:01 AM timeSheet.EnvironmentSetup contextInitialized
+INFO: Starting the H2 server!
+Jun 27, 2021 12:47:01 AM timeSheet.EnvironmentSetup contextInitialized
+INFO: H2 server started.
+Jun 27, 2021 12:47:01 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [227] milliseconds.
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\PaySystem.war] has finished in [1,767] ms
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\docs]
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\docs] has finished in [60] ms
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\examples]
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\examples] has finished in [320] ms
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\host-manager]
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\host-manager] has finished in [59] ms
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\manager]
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\manager] has finished in [52] ms
+Jun 27, 2021 12:47:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\ROOT]
+Jun 27, 2021 12:47:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\ROOT] has finished in [38] ms
+Jun 27, 2021 12:47:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8090"]
+Jun 27, 2021 12:47:02 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2424 ms
+Jun 27, 2021 12:47:54 AM timeSheet.database.manager.DatabaseManager persistNew
+SEVERE: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.1.2.v20101206-r8635): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'employeegroup.NAME'
+Error Code: 1062
+Call: INSERT INTO EMPLOYEEGROUP (NAME) VALUES (?)
+	bind => [admin]
+Query: InsertObjectQuery(timeSheet.database.entity.EmployeeGroup@ab3a6691)
+javax.persistence.RollbackException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.1.2.v20101206-r8635): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'employeegroup.NAME'
+Error Code: 1062
+Call: INSERT INTO EMPLOYEEGROUP (NAME) VALUES (?)
+	bind => [admin]
+Query: InsertObjectQuery(timeSheet.database.entity.EmployeeGroup@ab3a6691)
+	at org.eclipse.persistence.internal.jpa.transaction.EntityTransactionImpl.commitInternal(EntityTransactionImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.transaction.EntityTransactionImpl.commit(EntityTransactionImpl.java:63)
+	at timeSheet.database.manager.DatabaseManager.persistNew(DatabaseManager.java:112)
+	at timeSheet.database.manager.DatabaseManager.persist(DatabaseManager.java:99)
+	at timeSheet.Install.createInitialUser(Install.java:154)
+	at timeSheet.Install.doInstall(Install.java:115)
+	at org.apache.jsp.install.success_jsp._jspService(success_jsp.java:108)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.1.2.v20101206-r8635): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'employeegroup.NAME'
+Error Code: 1062
+Call: INSERT INTO EMPLOYEEGROUP (NAME) VALUES (?)
+	bind => [admin]
+Query: InsertObjectQuery(timeSheet.database.entity.EmployeeGroup@ab3a6691)
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:324)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:797)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeNoSelect(DatabaseAccessor.java:863)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:583)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeCall(DatabaseAccessor.java:526)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeCall(AbstractSession.java:980)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:206)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:192)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.insertObject(DatasourceCallQueryMechanism.java:341)
+	at org.eclipse.persistence.internal.queries.StatementQueryMechanism.insertObject(StatementQueryMechanism.java:162)
+	at org.eclipse.persistence.internal.queries.StatementQueryMechanism.insertObject(StatementQueryMechanism.java:177)
+	at org.eclipse.persistence.internal.queries.DatabaseQueryMechanism.insertObjectForWrite(DatabaseQueryMechanism.java:465)
+	at org.eclipse.persistence.queries.InsertObjectQuery.executeCommit(InsertObjectQuery.java:80)
+	at org.eclipse.persistence.queries.InsertObjectQuery.executeCommitWithChangeSet(InsertObjectQuery.java:90)
+	at org.eclipse.persistence.internal.queries.DatabaseQueryMechanism.executeWriteWithChangeSet(DatabaseQueryMechanism.java:290)
+	at org.eclipse.persistence.queries.WriteObjectQuery.executeDatabaseQuery(WriteObjectQuery.java:58)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:740)
+	at org.eclipse.persistence.queries.DatabaseQuery.executeInUnitOfWork(DatabaseQuery.java:643)
+	at org.eclipse.persistence.queries.ObjectLevelModifyQuery.executeInUnitOfWorkObjectLevelModifyQuery(ObjectLevelModifyQuery.java:108)
+	at org.eclipse.persistence.queries.ObjectLevelModifyQuery.executeInUnitOfWork(ObjectLevelModifyQuery.java:85)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.internalExecuteQuery(UnitOfWorkImpl.java:2908)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1291)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1273)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1233)
+	at org.eclipse.persistence.internal.sessions.CommitManager.commitNewObjectsForClassWithChangeSet(CommitManager.java:224)
+	at org.eclipse.persistence.internal.sessions.CommitManager.commitAllObjectsForClassWithChangeSet(CommitManager.java:191)
+	at org.eclipse.persistence.internal.sessions.CommitManager.commitAllObjectsWithChangeSet(CommitManager.java:136)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.writeAllObjectsWithChangeSet(AbstractSession.java:3348)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.commitToDatabase(UnitOfWorkImpl.java:1422)
+	at org.eclipse.persistence.internal.sessions.RepeatableWriteUnitOfWork.commitToDatabase(RepeatableWriteUnitOfWork.java:610)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.commitToDatabaseWithChangeSet(UnitOfWorkImpl.java:1527)
+	at org.eclipse.persistence.internal.sessions.RepeatableWriteUnitOfWork.commitRootUnitOfWork(RepeatableWriteUnitOfWork.java:264)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.commitAndResume(UnitOfWorkImpl.java:1148)
+	at org.eclipse.persistence.internal.jpa.transaction.EntityTransactionImpl.commitInternal(EntityTransactionImpl.java:84)
+	... 32 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'employeegroup.NAME'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:788)
+	... 64 more
+
+Jun 27, 2021 12:48:02 AM timeSheet.form.Credentials process
+INFO: Attempting to login user hr_1
+Jun 27, 2021 1:15:29 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/protobuf-java-3.6.1.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
+Jun 27, 2021 1:15:29 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/eclipselink-2.1.2.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
+Jun 27, 2021 1:15:29 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/jpa-api-2.0-cr-1.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
+Jun 27, 2021 1:15:29 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/mysql-connector-java-8.0.19.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
+Jun 27, 2021 1:15:29 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/javassist-3.18.2-GA.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
+Jun 27, 2021 2:07:20 AM timeSheet.form.Credentials process
+INFO: Attempting to login user tsa_1
+Jun 27, 2021 2:08:44 AM timeSheet.form.Credentials process
+INFO: Attempting to login user dev_1
+Jun 27, 2021 2:09:11 AM timeSheet.form.Credentials process
+INFO: Attempting to login user tsa_1
+Jun 27, 2021 2:09:23 AM timeSheet.form.Credentials process
+INFO: Attempting to login user hr_1
+Jun 27, 2021 2:10:58 AM timeSheet.form.Credentials process
+INFO: Attempting to login user hr_1
+Jun 27, 2021 2:11:17 AM timeSheet.form.Credentials process
+INFO: Attempting to login user tsa_1
+Jun 27, 2021 2:11:30 AM timeSheet.form.Credentials process
+INFO: Attempting to login user hr_1

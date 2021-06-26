@@ -1,0 +1,94 @@
+Jun 25, 2021 11:53:15 PM org.apache.catalina.startup.Catalina initDirs
+SEVERE: Cannot find specified temporary folder at [.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\temp]
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.108
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 28 2021 09:12:57 UTC
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.108.0
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Drive_ITU\TEST\Repo\PaySystem\jdk1.8.0_291\jre
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_291-b10
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\conf\logging.properties
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=.\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\temp
+Jun 25, 2021 11:53:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Drive_ITU\TEST\Repo\PaySystem\jdk1.8.0_291\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;.\..\jdk1.8.0_291\bin;".\..\apache-maven-3.8.1-bin\apache-maven-3.8.1"\bin;.\..\jdk1.8.0_291\bin;".\..\apache-maven-3.8.1-bin\apache-maven-3.8.1"\bin;.\..\jdk1.8.0_291\bin;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files (x86)\BullseyeCoverage\bin;C:\Klocwork\Klocwork 12.2 Command Line\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseSVN\bin;C:\HighTec\v4.9.3.0\toolchains\tricore\v4.9.3.0-infineon-1.0\bin;C:\Users\dhasan\AppData\Local\Microsoft\WindowsApps;".\..\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108";.]
+Jun 25, 2021 11:53:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8090"]
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 698 ms
+Jun 25, 2021 11:53:16 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 25, 2021 11:53:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.108
+Jun 25, 2021 11:53:16 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\PaySystem.war]
+Jun 25, 2021 11:53:17 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2021 11:53:17 PM timeSheet.EnvironmentSetup contextInitialized
+INFO: Starting the H2 server!
+Jun 25, 2021 11:53:18 PM timeSheet.EnvironmentSetup contextInitialized
+INFO: H2 server started.
+Jun 25, 2021 11:53:18 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [289] milliseconds.
+Jun 25, 2021 11:53:18 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\PaySystem.war] has finished in [1,935] ms
+Jun 25, 2021 11:53:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\docs]
+Jun 25, 2021 11:53:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\docs] has finished in [65] ms
+Jun 25, 2021 11:53:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\examples]
+Jun 25, 2021 11:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\examples] has finished in [10,102] ms
+Jun 25, 2021 11:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\host-manager]
+Jun 25, 2021 11:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\host-manager] has finished in [58] ms
+Jun 25, 2021 11:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\manager]
+Jun 25, 2021 11:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\manager] has finished in [52] ms
+Jun 25, 2021 11:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\ROOT]
+Jun 25, 2021 11:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Drive_ITU\TEST\Repo\PaySystem\apache-tomcat-7.0.108-windows-x64\apache-tomcat-7.0.108\webapps\ROOT] has finished in [35] ms
+Jun 25, 2021 11:53:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8090"]
+Jun 25, 2021 11:53:28 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12384 ms
+Jun 25, 2021 11:53:37 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/protobuf-java-3.6.1.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
+Jun 25, 2021 11:53:37 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/eclipselink-2.1.2.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
+Jun 25, 2021 11:53:37 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/jpa-api-2.0-cr-1.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
+Jun 25, 2021 11:53:37 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/mysql-connector-java-8.0.19.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
+Jun 25, 2021 11:53:37 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+FINE: No TLD files were found in [file:/C:/Drive_ITU/TEST/Repo/PaySystem/apache-tomcat-7.0.108-windows-x64/apache-tomcat-7.0.108/webapps/PaySystem/WEB-INF/lib/javassist-3.18.2-GA.jar]. Consider adding the JAR to the tomcat.util.scan.DefaultJarScanner.jarsToSkip or org.apache.catalina.startup.TldConfig.jarsToSkip property in CATALINA_BASE/conf/catalina.properties file.
